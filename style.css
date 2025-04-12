@@ -61,7 +61,7 @@ a {
    justify-content: space-around;
    width: auto;
    height: auto;
-   
+  
 }
 
 .block1_2 {
@@ -161,6 +161,7 @@ img {
     padding: 50px 300px;
     justify-content: center;
     cursor: default;
+    
 }
 
 .citation {
@@ -201,7 +202,7 @@ img {
 .call1 {
     font-weight: 900;
     font-size: 32px;
-    
+    color: white;
 }
 
 .call p {
