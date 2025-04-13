@@ -23,17 +23,13 @@ ul {
     gap: 10px;
     flex: 1;
     justify-content: flex-end;
-    filter: contrast(0.5); 
-    
+   
 }
-
-
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    
 }
 
 .logo {
@@ -50,7 +46,6 @@ a {
     gap: 100px;
     flex-wrap: wrap;
     align-content: center;
-    margin: auto;
 }
 
 .block1_1 {
@@ -58,8 +53,6 @@ a {
    flex: 1;
    flex-direction: column;
    justify-content: space-around;
-   width: auto;
-   height: auto;
    color:#f9faf8;
 }
 
@@ -150,7 +143,6 @@ img {
 
 .block3 {
     display: flex;
-    flex: 1;
     background-color: #e5e7eb;
     color: black;
     flex-direction: column;
@@ -164,8 +156,7 @@ img {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .thor {
@@ -178,7 +169,6 @@ img {
 
 .block4 {
     display: flex;
-    flex: 1;
     margin: 70px 150px;
     background-color: #3882f6;
     border-radius: 8px;
