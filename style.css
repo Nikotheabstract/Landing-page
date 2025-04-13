@@ -50,7 +50,6 @@ a {
     gap: 100px;
     flex-wrap: wrap;
     align-content: center;
-    cursor: default;
     margin: auto;
 }
 
@@ -61,7 +60,7 @@ a {
    justify-content: space-around;
    width: auto;
    height: auto;
-  
+   color:#f9faf8;
 }
 
 .block1_2 {
@@ -79,6 +78,10 @@ a {
     margin: 0;
 }
 
+.awesome_1 {
+    filter: contrast(0.5);
+}
+
 button {
    width: 100px;
    height: 30px;
@@ -86,13 +89,8 @@ button {
    border-radius: 5px;
    color: white;
    border: none;
-   cursor: pointer;
    font-weight: 600;
    flex-shrink: 0;
-}
-
-.awesome_1 {
-  filter: contrast(0.5);   
 }
 
 img {
@@ -109,7 +107,6 @@ img {
     justify-content: flex-start;
     padding: 50px 150px;
     gap: 50px;
-    cursor: default;
 }
 
 .block2 p{
@@ -159,9 +156,7 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 50px 300px;
-    justify-content: center;
-    cursor: default;
-    
+    justify-content: center;    
 }
 
 .citation {
@@ -191,8 +186,8 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    cursor: default;
     gap: 12px;
+    color: white;
 }
 
 .block4 button {
@@ -202,16 +197,15 @@ img {
 .call1 {
     font-weight: 900;
     font-size: 32px;
-    color: white;
 }
 
 .call p {
     margin: 0;
-    
 }
 
 footer {
     background-color: #1f2937;
     text-align: center;
     padding: 18px 150px;
+    color: white;
 }
